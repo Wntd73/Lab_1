@@ -78,6 +78,7 @@ for x in range(N):
         print(A[x][y], end = ' ')
     print()   
 print(f'\nМатрица F, перемноженная с матрицей А, умноженная на {K}:')
+prom=0
 for x in range(N):
     for y in range(N):
         A[x][y] *= K
