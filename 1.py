@@ -78,6 +78,7 @@ for x in range(N):
         print(F[x][y], end = ' ')   
     print()
 print(f'\nМатрица F, перемноженная с матрицей А:')
+prom=0
 for x in range(N):    
     for y in range(N):
         for i in range(N): prom += F[x][i] * A[i][y]
