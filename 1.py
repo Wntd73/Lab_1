@@ -8,10 +8,10 @@
 К*(A*F) + K*Ft . Выводятся по мере формирования А, F и все матричные операции последовательно.'''
 from random import randint
 K = int(input('Введите число K: '))
-N = int(input('Введите целое число N от 3 до 100: '))
+N = int(input('Введите целое число N от 3 до 7: '))
 while True:
     if N<100 and N>2: break
-    else: N=int(input('Введите целое число N от 3 до 100: '))
+    else: N=int(input('Введите целое число N от 3 до 7: '))
 A,F = [], []
 for i in range(N): #создание пустых матриц
     A.append([0]*N)
